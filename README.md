@@ -1,7 +1,17 @@
 # BuggyCarsRating
 Testing automation using NUnit, Specflow, and Selenium for Buggy Cars Rating (https://buggy.justtestit.org/).
 
-You must have **.Net Core version 3.1** to run this project.
+## Pre-requisites
+- Visual Studio 2019 version 16.10
+- .Net Core 3.1
+- Git
+
+## Setup
+1. Clone the repository to your local machine
+2. Open Visual Studio and open the solution
+3. Install "SpecFlow for Visual Studio 2019" extension
+4. Install the LivingDoc CLI as a global dotnet tool using command prompt
+`dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI`
 
 ## Technology Used
 - nunit 3.13.2
