@@ -16,8 +16,7 @@ Testing automation using NUnit, Specflow, and Selenium for Buggy Cars Rating (ht
 In Visual Studio menubar, go to Test and then click Test Explorer. And then click Run All Tests In View button. Easy!
 
 ## How to generate the LivingDoc?
-Wait! What is a LivingDoc?
-It is an extension to our SpecFlow-BDD-Framework. LivingDoc displays Gherkin feature specifications and their automated validation results as a single source of truth outside of an IDE – within your browser. In short, it is an automation reporting made easy - automatically generate, display, share, review, and discuss your scenarios with your stakeholders via any browser.
+What is a LivingDoc? It is a shareable HTML Gherkin feature execution report.
 
 To generate, make sure you installed the LivingDoc CLI first, as a global dotnet tool using command prompt.
 ```
