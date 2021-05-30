@@ -38,10 +38,24 @@ Here are the features and functionalities I'm able to cover in this test automat
   - Login with valid credentials
   - Login with invalid credentials
   - Logout
+
 **2. Overall Rating Page**
   - Display list of all registered models
   - Check pagination
   - Check sorting feature
   - Check broken images
+
 **3. Navigation**
   - Check for broken links
+
+### Outstanding Tests to Cover
+1. Profile Information Update
+2. Make Details Page
+  - Models list
+    - Pagination
+    - Sorting
+3. Model Details Page
+  - Voting and comment form
+  - Comments list
+4. Security
+5. Performance Testing 
