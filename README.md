@@ -10,11 +10,10 @@ Testing automation using NUnit, Specflow, and Selenium for Buggy Cars Rating (ht
 1. Clone the repository to your local machine
 2. Open Visual Studio and open the solution
 3. Install "SpecFlow for Visual Studio 2019" extension
-5. Build the project
+4. Build the project 🤞
 
 ## How to run the tests?
-In Visual Studio menubar, go to Test and then click Test Explorer.
-Click Run All Tests In View button.
+In Visual Studio menubar, go to Test and then click Test Explorer. And then click Run All Tests In View button. Easy!
 
 ## How to generate the LivingDoc?
 Wait! What is a LivingDoc?
@@ -30,13 +29,19 @@ Then execute below command to generate the document with test results.
 livingdoc test-assembly [YOUR_PROJECT_DIRECTORY]\BuggyCarsRating\BuggyCarsRating.Tests\bin\Debug\netcoreapp3.1\BuggyCarsRating.Tests.dll -t [YOUR_PROJECT_DIRECTORY]\BuggyCarsRating\BuggyCarsRating.Tests\bin\Debug\netcoreapp3.1\TestExecution.json
 ```
 
-## Technology Used
-- nunit 3.13.2
-- NUnit3TestAdapter 3.11.0
-- SpecFlow 3.8.14
-- SpecFlow.Assist.Dynamic 1.4.2
-- SpecFlow.NUnit 3.8.14
-- SpecFlow.Plus.LivingDocPlugin 3.8.35
-- SpecFlow.Tools.MsBuild.Generation 3.8.14
-- Selenium.WebDriver 3.141.0
-- Selenium.WebDriver.ChromeDriver 90.0.4430.2400
+## Testing Approach
+Here are the features and functionalities I'm able to cover in this test automation.
+
+**1. Registration and Login**
+  - Register with valid data
+  - Register an existing user
+  - Login with valid credentials
+  - Login with invalid credentials
+  - Logout
+**2. Overall Rating Page**
+  - Display list of all registered models
+  - Check pagination
+  - Check sorting feature
+  - Check broken images
+**3. Navigation**
+  - Check for broken links
